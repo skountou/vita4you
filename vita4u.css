@@ -50,25 +50,24 @@ body {
     cursor: pointer;
 }
 
+
+
 .carousel {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 90%;
+    /* justify-content: space-between; */
     align-items: center;
-    margin: 0;
-    padding-bottom: 200px;
+    margin-left: 85px;
 }
 
 .item-card {
     height: 526px;
-    width: 286px;
-    margin: 12px;
+    width: 226px;
+    margin: 12px 0px 0;
     padding: 40px 15px;
     box-sizing: border-box;
-    float: left;
-    text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     border-radius: 20px;
     box-shadow: 0 14px 28px rgb(255, 255, 255), 0 10px 10px rgb(0, 0, 0,0.22);
     background-color: #fff;
@@ -79,14 +78,15 @@ body {
 }
 
 img {
-    height: 180px;
-    width: 160px;
-    text-align: center;
+    height: 190px;
+    width: 170px;
+    position: relative;
+    left: 27%;
 }
 
 .product-view {
-    height: 45%;
-    padding: 20px 0 0 0;
+    height: 50%;
+    padding: 10px 0;
     position: relative;
 }
 
@@ -95,6 +95,7 @@ img {
     flex-direction: column;
     position: absolute;
     top: 30px;
+    left: 5px;
     font-size: 15px;
 }
 
@@ -103,15 +104,22 @@ img {
     background-color: rgba(255, 99, 71, 0.705);
     color: #fff;
     border-radius: 20px;
+    position: absolute;
+    top: 0;
+    padding: 1px 4px;
 }
 
 .gift {
     color: rgba(255, 99, 71, 0.705);
     font-weight: 600;
+    position: absolute;
+    top: 28px;
 }
 
 .new {
     color: #0F996D;
+    position: absolute;
+    margin: 50px 5px;
 }
 
 
@@ -133,7 +141,7 @@ img {
     font-size: 15px;
     height: 30px;
     position: absolute;
-    bottom: -25px;
+    bottom: 0;
 }
 
 .prices-container h2 span {
@@ -156,11 +164,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    bottom: -85px;
+    bottom: -60px;
 }
 
 .buy-btn {
-    width: 180px;
+    width: 285px;
     height: 42px;
     margin-right: 10px;
     background-color: #0F996D;
@@ -185,7 +193,7 @@ img {
 }
 
 .fav-btn {
-    width: 65px;
+    width: 75px;
     height: 42px;
     background-color: transparent;
     color: #0F996D;
@@ -219,7 +227,7 @@ img {
 
 .rating {
     position: absolute;
-    left: 37%;
+    left: 41%;
     float: left;
 }
 
@@ -239,3 +247,7 @@ img {
     color: goldenrod;
 }
 
+.slick-slide {
+    margin-left: 10px;
+    margin-bottom: 42px;
+}
