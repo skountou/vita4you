@@ -251,3 +251,16 @@ img {
     margin-left: 10px;
     margin-bottom: 42px;
 }
+
+.prev-arrow {
+    position: absolute;
+    left: 5%;
+    top: 66%;
+}
+
+.next-arrow {
+    position: absolute;
+    right: 5%;
+    top: 66%;
+}
+
